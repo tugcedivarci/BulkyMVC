@@ -11,6 +11,7 @@ namespace Bulky.Models.ViewModels
     public class ProductViewModels
     {
         public Product Product { get; set; }
+
         [ValidateNever]
         public IEnumerable<SelectListItem> CategoryList { get; set; }
     }

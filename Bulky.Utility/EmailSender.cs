@@ -26,7 +26,7 @@ namespace Bulky.Utility
 
             var client = new SendGridClient(SendGridSecret);
 
-            var from = new EmailAddress("furkantoka@protonmail.com", "Bulky Book");
+            var from = new EmailAddress("....@mail.com", "Bulky Book");
             var to = new EmailAddress(email);
             var message = MailHelper.CreateSingleEmail(from, to, subject, "", htmlMessage);
 
